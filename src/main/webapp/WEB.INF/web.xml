@@ -6,12 +6,12 @@
 
 	<servlet>
 		<servlet-name>helloWorld</servlet-name>
-		<servlet-class>org.jacob.examples.HelloWorldServlet</servlet-class>
+		<servlet-class>com.kdg.servlets.example1.HelloWorldServlet</servlet-class>
 	</servlet>
 
 	<servlet>
 		<servlet-name>hello</servlet-name>
-		<servlet-class>org.jacob.examples.HelloServlet</servlet-class>
+		<servlet-class>com.kdg.servlets.example1.HelloServlet</servlet-class>
 	</servlet>
 
 	<servlet>
