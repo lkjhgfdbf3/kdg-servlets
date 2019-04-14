@@ -24,7 +24,7 @@ public class HelloServlet extends HttpServlet {
 		request.setAttribute("name", name);
 
 		// /WEB-INF/jsp/hello.jsp로 forward 한다.
-		request.getRequestDispatcher("/WEB.INF/jsp/hello.jsp").forward(request,
+		request.getRequestDispatcher("/WEB-INF/jsp/hello.jsp").forward(request,
 				response);
 	}
 }
